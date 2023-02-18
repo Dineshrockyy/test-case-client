@@ -8,7 +8,7 @@ export default function Main() {
     const usenavi=useNavigate()
 
     useEffect(()=>{
-        Axios.get("http://localhost:8080/testcase")
+        Axios.get("https://test-case-api.onrender.com/testcase")
         .then((values)=>{
             setdata(values.data)
         })
@@ -26,7 +26,7 @@ function handeledit(id,title,script){
 }
 
 function handeldelete(id){
-    Axios.delete(`http://localhost:8080/testcase/${id}`)
+    Axios.delete(`https://test-case-api.onrender.com/testcase/${id}`)
         .then((values)=>{
             console.log(values)
         })

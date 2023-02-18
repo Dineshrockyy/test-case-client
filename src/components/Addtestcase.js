@@ -10,13 +10,13 @@ export default function Addtestcase() {
 
     function handelsubmit(){
         if(location.state===null){
-        Axios.post('http://localhost:8080/testcase/add',value)
+        Axios.post('https://test-case-api.onrender.com/testcase/add',value)
             .then(res=>{console.log(res.data)})
             .catch(err=>{
                 console.log("err"+err.message)
             })
         }else{
-            Axios.put(`http://localhost:8080/testcase/${location.state.id}`,value)
+            Axios.put(`https://test-case-api.onrender.com/testcase/${location.state.id}`,value)
             .then(res=>{console.log(res.data)})
             .catch(err=>{
                 console.log("err"+err.message)
