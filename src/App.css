@@ -1,38 +1,90 @@
-.App {
-  text-align: center;
+
+.btnclass{
+    padding: 15px;
+    background-color: green;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.btnclass button{
+    padding: 10px;
+    background-color: orange;
+    border: none;
+    width: 15rem;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.table{
+    border: 2px solid black;
+    margin-top: 1rem;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.table h3{
+    border-bottom: 1px solid black;
+    padding-left: 1rem;
+    padding-right: 1rem;
 }
 
-.App-link {
-  color: #61dafb;
+.table pre{
+    padding-left: 1rem;
+    padding-right: 1rem;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.table label{
+    padding-left: 5px;
+}
+
+.edit{
+    margin-top: 2rem;
+    width: 10rem;
+    margin-bottom: 1rem;
+    margin-left: 5px;
+    background-color: blue;
+    color: white;
+    padding: 15px;
+}
+
+.delete{
+    margin-left: 5px;
+    margin-top: 2rem;
+    width: 10rem;
+    margin-bottom: 1rem;
+    margin-left: 5px;
+    background-color: red;
+    color: white;
+    padding: 15px;
+}
+
+.tableclass{
+    padding: 20px;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid black;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.form button{
+    width: 17rem;
+    margin-top: 1rem;
+    background-color: green;
+    padding: 5px;
+    color: white;
+}
+
+.titleinput{
+    width: 50rem;
+    padding: 15px;
+}
+
+.testinput{
+    padding: 15px;
+    width: 50rem;
+    height: 18rem;
+}
+
+.testcase{
+    text-align: center;
 }
